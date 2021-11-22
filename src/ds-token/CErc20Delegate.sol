@@ -1,4 +1,4 @@
-pragma solidity ^0.5.16;
+pragma solidity 0.6.7;
 
 import "./CErc20.sol";
 
@@ -7,7 +7,7 @@ import "./CErc20.sol";
  * @notice CTokens which wrap an EIP-20 underlying and are delegated to
  * @author Compound
  */
-contract DSDelegateToken is CErc20, CDelegateInterface {
+contract CErc20Delegate is CErc20, CDelegateInterface {
     /**
      * @notice Construct an empty delegate
      */
